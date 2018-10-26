@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="KudaevaNA" />
+
+	<title>Неназванный 1</title>
+     <link href="css/style.css" rel="stylesheet"/>
+     <script type="text/javascript" src="js/jquery11.js"></script>
+     <script type="text/javascript" src="js/buh.js"></script>
+</head>
+
+
+<body>
+    <div class="wrap">
+        <div class="info">
+            <h1>Алгоритм Бухбергера</h1><br />
+            Пример ввода: <br />
+            Многочлен x<span class="stepen">4</span>y<span class="stepen">5</span>z<span class="stepen">3</span>+3x<span class="stepen">3</span>y<span class="stepen">4</span>z</span>2+2xyz+xy+x+y+z<br />
+            необходимо записать в виде:<br />
+            (x^4)(y^5)(z^3)+3(x^3)(y^4)(z^2)+2xyz+z+x+y+xy
+        </div>
+        <div class="in">
+            
+                <div class="line">
+                    <label>Количество уравнений(многочленов)</label>
+                    <input id="count" type="text" value=""/>
+                    <button class="myBtn" onclick="counts()">Ок</button>
+                </div>
+                <div class="urs">
+                </div>
+         
+            <input type="button" value="СТАРТ" class="myBtn" id="start" onclick="start()"/>
+        </div>
+         
+         <div id="formula"></div>
+    </div>
+
+   
+</body>
+</html>
